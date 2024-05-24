@@ -2328,6 +2328,10 @@
   display: grid;
 }
 
+.alloro {
+  width: 100%;
+}
+
 .contenitorecapitoli {
   grid-column-gap: 60px;
   grid-row-gap: 60px;
@@ -2480,6 +2484,10 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.image-17, .image-18 {
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {
