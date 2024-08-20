@@ -36,7 +36,7 @@
 }
 
 .gradient {
-  background-image: linear-gradient(rgba(252, 22, 75, .2), rgba(252, 22, 75, 0));
+  background-image: linear-gradient(#fc164b33, #fc164b00);
   height: 100px;
 }
 
@@ -45,7 +45,6 @@
   object-fit: cover;
   border-radius: 20px;
   width: 100%;
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -368,7 +367,7 @@
 }
 
 .tabbutton {
-  background-color: rgba(221, 221, 221, 0);
+  background-color: #ddd0;
   margin-bottom: 15px;
   padding: 2px 5px;
   font-size: 18px;
@@ -382,7 +381,7 @@
 
 .tabbutton.w--current {
   color: #000;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   border-left: 4px solid #8fc8b1;
   font-weight: 700;
   transition: border-width .3s, color .3s, background-color .3s;
@@ -500,7 +499,7 @@
 }
 
 .dropdownelementlist {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   padding-left: 14px;
   padding-right: 14px;
   display: none;
@@ -687,7 +686,7 @@
 }
 
 .elementtopic:hover {
-  background-color: rgba(226, 223, 220, 0);
+  background-color: #e2dfdc00;
 }
 
 .headingcard {
@@ -771,7 +770,7 @@
 }
 
 .slider {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   width: 100%;
   height: 100%;
   display: flex;
@@ -781,20 +780,14 @@
 .right-arrow {
   cursor: pointer;
   height: 40px;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: auto 0% 0% auto;
 }
 
 .left-arrow {
   cursor: pointer;
   height: 40px;
   margin-right: 60px;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: auto 0% 0% auto;
 }
 
 .mask {
@@ -830,7 +823,7 @@
 }
 
 .dropdownlistauthor {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   flex-direction: column;
   align-items: flex-start;
   display: flex;
@@ -897,10 +890,7 @@
   padding-right: 20px;
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% auto auto;
   overflow: auto;
 }
 
@@ -990,7 +980,7 @@
 }
 
 .dropdown-list-2 {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   display: block;
   position: static;
   overflow: hidden;
@@ -1237,7 +1227,7 @@
 
 .gradient1 {
   z-index: 15;
-  background-image: linear-gradient(270deg, rgba(246, 244, 241, 0), #f6f4f1);
+  background-image: linear-gradient(270deg, #f6f4f100, #f6f4f1);
   width: 80px;
   height: 60px;
   position: absolute;
@@ -1245,15 +1235,12 @@
 
 .gradient2 {
   z-index: 15;
-  background-image: linear-gradient(to right, rgba(246, 244, 241, 0), #f6f4f1);
+  background-image: linear-gradient(to right, #f6f4f100, #f6f4f1);
   width: 80px;
   height: 60px;
   display: none;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% auto auto;
 }
 
 .containerabout {
@@ -1573,10 +1560,7 @@
   text-decoration: none;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .play {
@@ -2220,10 +2204,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .code-embed-2 {
@@ -2233,25 +2214,20 @@
   height: 100%;
   max-height: 100vh;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
   overflow: hidden;
 }
 
 .overlay {
   z-index: 50;
-  background-color: rgba(0, 0, 0, .05);
+  background-color: #0000000d;
   border-radius: 20px;
   width: 100%;
   height: 100%;
   max-height: 100vh;
+  display: none;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .immaginecontenitore {
@@ -2301,10 +2277,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .crossdoc {
@@ -2312,10 +2285,7 @@
   height: 30px;
   display: none;
   position: absolute;
-  top: 60px;
-  bottom: auto;
-  left: auto;
-  right: 30px;
+  inset: 60px 30px auto auto;
 }
 
 .alloridiv {
@@ -2464,10 +2434,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
 }
 
 .backgroundvideocontainer {
@@ -2480,10 +2447,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
 }
 
 .image-17, .image-18 {
@@ -2576,7 +2540,7 @@
   }
 
   .overlay {
-    background-color: rgba(0, 0, 0, .05);
+    background-color: #0000000d;
     border-radius: 0;
   }
 
